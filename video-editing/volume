@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [[ $# -lt 2 ]]; then
+	echo "Usage: volume video [volume-value]"
+	exit 1
+fi
+name="${1%.*}"
+ext="${1##*.}"
+
+ffmpeg -i $name.$ext -af "volume=$2" output.$ext
