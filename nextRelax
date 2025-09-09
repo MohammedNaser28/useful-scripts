@@ -1,0 +1,4 @@
+#!/bin/bash
+# Next track
+cvlc --global-key-next z >/dev/null 2>&1 &
+

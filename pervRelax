@@ -1,0 +1,4 @@
+#!/bin/bash
+# Previous track
+cvlc --global-key-prev a >/dev/null 2>&1 &
+
