@@ -1,4 +1,0 @@
-#!/bin/bash
-# Toggle repeat
-cvlc --global-key-toggle-repeat r >/dev/null 2>&1 &
-
